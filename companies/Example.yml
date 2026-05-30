@@ -1,0 +1,4 @@
+subject: "Your subject line here"
+body: |
+  Your company-specific paragraph goes here. Supports **bold text** and [hyperlinks](https://example.com).
+  Keep it to 2-3 sentences — specific to what the company is building and why you care about it.

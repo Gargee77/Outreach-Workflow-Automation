@@ -1,0 +1,17 @@
+cookies.json
+draft_ids.json
+*.xlsx
+attachments/
+companies/*.yml
+!companies/Example.yml
+__pycache__/
+.pytest_cache/
+*.pyc
+venv/
+.venv/
+env/
+.env
+*.log
+token.json
+credentials.json
+*.pem
