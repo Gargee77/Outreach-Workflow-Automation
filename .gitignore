@@ -4,6 +4,9 @@ draft_ids.json
 attachments/
 companies/*.yml
 !companies/Example.yml
+email_body.md
+email_body.txt
+launch_chrome.bat
 __pycache__/
 .pytest_cache/
 *.pyc
