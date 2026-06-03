@@ -6,7 +6,7 @@ Reads a spreadsheet of contacts, generates a draft of the personalized cold emai
 
 ## How it works
 
-Each company gets a YAML file with a subject line and a body paragraph. The main template (`email_body.md`) handles the shared structure. The script merges them, converts Markdown to HTML so bold and links work, attaches a file, and saves a draft via the Gmail API. Your Gmail signature is pulled automatically and appended.
+Each company gets a YAML file with a subject line and a body paragraph. The main template (`email_body_sample.md`) handles the shared structure. The script merges them, converts Markdown to HTML so bold and links work, attaches a file, and saves a draft via the Gmail API. Your Gmail signature is pulled automatically and appended.
 
 Sending is a separate step: `send_drafts.py` asks you to type "send" before anything goes out.
 
